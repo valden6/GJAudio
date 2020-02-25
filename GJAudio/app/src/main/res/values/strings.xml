@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GJAudio</string>
+    <string name="manager_next">next</string>
+    <string name="manager_play">play</string>
+    <string name="manager_previous">previous</string>
+    <string name="manager_title_music">music</string>
+    <string name="manager_artist_music">artist</string>
+</resources>

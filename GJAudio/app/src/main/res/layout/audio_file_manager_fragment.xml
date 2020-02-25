@@ -1,0 +1,84 @@
+<?xml  version="1.0"  encoding="utf-8"?>
+<layout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/audio_file_manager"
+            android:layout_width="0dp"
+            android:layout_height="130dp"
+            android:background="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/button_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/next"
+            app:layout_constraintBottom_toBottomOf="@+id/audio_file_manager"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.866"
+            app:layout_constraintStart_toStartOf="@+id/audio_file_manager"
+            app:layout_constraintTop_toTopOf="@+id/audio_file_manager"
+            app:layout_constraintVertical_bias="0.768" />
+
+        <Button
+            android:id="@+id/button_play"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/pause"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="@+id/audio_file_manager"
+            app:layout_constraintTop_toTopOf="@+id/audio_file_manager"
+            app:layout_constraintVertical_bias="0.772" />
+
+        <Button
+            android:id="@+id/button_previous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/previous"
+            app:layout_constraintBottom_toBottomOf="@+id/audio_file_manager"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.123"
+            app:layout_constraintStart_toStartOf="@+id/audio_file_manager"
+            app:layout_constraintTop_toTopOf="@+id/audio_file_manager"
+            app:layout_constraintVertical_bias="0.777" />
+
+        <TextView
+            android:id="@+id/textView_title_music"
+            android:layout_width="207dp"
+            android:layout_height="20dp"
+            android:text="@string/manager_title_music"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/audio_file_manager"
+            app:layout_constraintVertical_bias="0.07" />
+
+        <TextView
+            android:id="@+id/textView_artist_music"
+            android:layout_width="207dp"
+            android:layout_height="20dp"
+            android:text="@string/manager_artist_music"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/audio_file_manager"
+            app:layout_constraintVertical_bias="0.247" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
